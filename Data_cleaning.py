@@ -72,7 +72,6 @@ def clean_dataset(df):
     labels2 = ['0-2 weeks', '2-8 weeks', '2-6 months', '6-12 months', '1 year', '2+ years']
     
     categorise_col('days_since_last_review', 'days_since_last_review_cats', bins=bins2, labels=labels2)
-    listings['days_since_last_review_cats'].value_counts().plot(kind='bar');
     listings['days_since_last_review_cats'].isnull().sum();
     
     # Categorising columns out of 10
