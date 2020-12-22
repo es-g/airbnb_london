@@ -28,6 +28,8 @@ For this project, I was interestested in using InsideAirbnb data from 2020 to be
 
 **Price_Prediction.ipynb** - Runs the machine learning
 
+## Results
+The main findings of this code are summarised in a [post](https://yesbol.medium.com/what-do-airbnb-listings-look-like-during-pandemic-a52a35504a84)
 
 ## Conclusions
 •	COVID-19 pandemic has significantly impacted both the demand in short-term rentals and active listings. Interestingly, alarming increase in number of new confirmed cases did not stop people from renting the listings. In fact, we observed that the highest number of listings was seen at the time when the number of confirmed COVID-19 positive cases was one of the highest.
