@@ -20,23 +20,23 @@ For this project, I was interestested in using InsideAirbnb data from 2020 to be
 
 
 ## Files description
-**Data_cleaning_notebook.ipynb** - Provides step by step process on data cleaning, dealing with missing data and preparing the dataset for machine learning
+- **Data_cleaning_notebook.ipynb** - Provides step by step process on data cleaning, dealing with missing data and preparing the dataset for machine learning
 
-**EDA** - Helps answer 5 questions above
+- **EDA** - Helps answer 5 questions above
 
-**Data_cleaning.py** - Function on data cleaning. More concise version of *Data_cleaning_notebook.ipynb* used on Price_Prediction.ipynb file
+- **Data_cleaning.py** - Function on data cleaning. More concise version of *Data_cleaning_notebook.ipynb* used on Price_Prediction.ipynb file
 
-**Price_Prediction.ipynb** - Runs the machine learning
+- **Price_Prediction.ipynb** - Runs the machine learning
 
 ## Results
 The main findings of this code are summarised in a [post](https://yesbol.medium.com/what-do-airbnb-listings-look-like-during-pandemic-a52a35504a84)
 
 ## Conclusions
-•	COVID-19 pandemic has significantly impacted both the demand in short-term rentals and active listings. Interestingly, alarming increase in number of new confirmed cases did not stop people from renting the listings. In fact, we observed that the highest number of listings was seen at the time when the number of confirmed COVID-19 positive cases was one of the highest.
+* COVID-19 pandemic has significantly impacted both the demand in short-term rentals and active listings. Interestingly, alarming increase in number of new confirmed cases did not stop people from renting the listings. In fact, we observed that the highest number of listings was seen at the time when the number of confirmed COVID-19 positive cases was one of the highest.
 
-•	Airbnb listings are typically scored high. We saw that all boroughs, on average, are rated higher than 90%.
+*	Airbnb listings are typically scored high. We saw that all boroughs, on average, are rated higher than 90%.
 
-•	Central areas are typically more expensive than outer London
+*	Central areas are typically more expensive than outer London
 
-•	Top predictors for price were found to be room type, number of bedrooms, how many people the property can accommodate and number of bathrooms
+*	Top predictors for price were found to be room type, number of bedrooms, how many people the property can accommodate and number of bathrooms
 
