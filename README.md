@@ -1,14 +1,30 @@
 # What Do Airbnb Listings Look Like during Pandemic?
 
 ## Installation
-To be able to visualise geographic data, you should have geopandas library installed. Here is the Installation [Guide](https://geopandas.org/install.html)
 
-For price prediction, you need to install XGBoost library. Follow the [link](https://xgboost.readthedocs.io/en/latest/build.html) for Installation Guide
+**Create a virtual environment**
+
+`python -m venv <name_of_virtualenv>`
+
+or using conda
+
+`conda create --name myenv`
+*Replace myenv with your environment name.*
+
+
+**Install requirements.txt**
+
+`pip install -r requirements.txt`
+
+### Guides
+[Geopandas](https://geopandas.org/install.html)
+
+[XGBoost](https://xgboost.readthedocs.io/en/latest/build.html)
 
 ## Project Motivation
-For this project, I was interestested in using InsideAirbnb data from 2020 to better understand:
+For this project, I was interested in using InsideAirbnb data from 2020 to better understand:
 
-1.	How popular has AirBnB become in London? And how COVID-19 impacted the demand?
+1.	How popular has AirBnB become in London? How COVID-19 impacted the demand?
 
 2.	How the demand changed in 2020 in comparison to previous year?
 
